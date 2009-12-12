@@ -26,3 +26,7 @@ $db_host = 'localhost';
 $db_user = 'USERNAME';
 $db_pass = 'PASSWORD';
 $db_name = 'DATABASE_NAME';
+
+
+
+$googleAnalyticsCode = 'UA-XXXX-X';

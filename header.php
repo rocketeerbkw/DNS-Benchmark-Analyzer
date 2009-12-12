@@ -14,7 +14,7 @@
             
             // Google Analytics
             var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-2366091-2']);
+            _gaq.push(['_setAccount', '<?php echo $googleAnalyticsCode ?>']);
             _gaq.push(['_trackPageview']);
 
             (function() {
