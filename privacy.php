@@ -1,14 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <head>
-        <title>DNS Benchmark Analyzer</title>
-        
-        <link rel="stylesheet" href="styles_min.css" />
-    </head>
-    <body>
-        <h1>DNS Benchmark Analyzer</h1>
-        <p>This site is designed to import multiple result sets from <a href="http://www.grc.com/dns/benchmark.htm" target="_blank">DNS Benchmark</a> to give you a better idea of longterm DNS server statistics.</p>
-        
+<?php
+require 'header.php';
+?>
+        <p><a href="index.php">Import Results</a> <a href="results.php">View Results</a></p>
         <div style="font-family:arial">
             <strong>What information do we collect?</strong> <br /><br />
             We collect information from you when you fill out a form.  <br /><br />
@@ -52,5 +45,5 @@
             If there are any questions regarding this privacy policy you may contact us using the information below. <br /><br />
             http://www.dnsbenchmarkanalyzer.com/<br />
             support@dnsbenchmarkanalyzer.com
-    </body>
-</html>
+
+<?php require 'footer.php'; ?>
