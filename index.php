@@ -223,20 +223,20 @@ require 'header.php';
                 <td valign="top">
                     Paste results below:<br />
                     <a href="images/help1.png"><img src="images/help1.png" width="500" /></a><br />
-                    <textarea name="results" id="results" cols="60" rows="12"></textarea><br />
+                    <textarea name="results" id="results" cols="60" rows="12" tabindex="1"></textarea><br />
                 </td>
                 <td valign="top"><strong>OR</strong></td>
                 <td valign="top">
                     Upload results CSV:<br />
-                    <input type="file" name="csv" id="csv" /><br />
+                    <input type="file" name="csv" id="csv" tabindex="3" /><br />
                     <a href="images/help2.png"><img src="images/help2.png" width="500" /></a>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
                     <input type="hidden" name="go" id="go" value="go!" />
-                    Your Email: <input type="text" name="email" id="email" value="<?php echo htmlentities($_POST['email']) ?>" /><br />
-                    <input type="submit" name="submit" id="submit" value="Submit" />
+                    Your Email: <input type="text" name="email" id="email" value="<?php echo htmlentities($_POST['email']) ?>" tabindex="2" /><br />
+                    <input type="submit" name="submit" id="submit" value="Submit" tabindex="4" />
                 </td>
             </tr>
         </table>
