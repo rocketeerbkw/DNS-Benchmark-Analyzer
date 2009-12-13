@@ -221,12 +221,15 @@ require 'header.php';
         <table border="0" cellpadding="5" cellspacing="0">
             <tr>
                 <td valign="top">
-                    <p class="clear">Paste results below (slower):</p>
-                        <textarea name="results" id="results" cols="60" rows="22"></textarea><br />
+                    Paste results below:<br />
+                    <a href="images/help1.png"><img src="images/help1.png" width="500" /></a><br />
+                    <textarea name="results" id="results" cols="60" rows="12"></textarea><br />
                 </td>
+                <td valign="top"><strong>OR</strong></td>
                 <td valign="top">
-                    <p>Upload results CSV:</p>
-                    <input type="file" name="csv" id="csv" />
+                    Upload results CSV:<br />
+                    <input type="file" name="csv" id="csv" /><br />
+                    <a href="images/help2.png"><img src="images/help2.png" width="500" /></a>
                 </td>
             </tr>
             <tr>
