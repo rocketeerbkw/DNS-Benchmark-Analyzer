@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['go'] == 'go!') {
     if ($_POST['email'] != '') {
     
         //Did the user upload a CSV?
-        if ($_FILES['csv']['tmp_name'] !== "") {
+        if ($_FILES['csv']['error'] === UPLOAD_ERR_OK) {
             require 'csv.php';
             
             $t1 = microtime(true);
